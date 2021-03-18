@@ -1,0 +1,4 @@
+1. bind local to remote
+git remote add origin <remote_repo_url>
+if you want all your branches to use this remote repo, use following command
+git push --all --set-upstream origin
