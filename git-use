@@ -2,3 +2,26 @@
 git remote add origin <remote_repo_url>
 if you want all your branches to use this remote repo, use following command
 git push --all --set-upstream origin
+
+2.install android studio
+use this tool to do emulator job
+
+3. install yarn
+React native recommend us to use yarn to manage packages
+npm install -g yarn
+after installation, when run yarn, report error like " cannot be loaded because running scripts is disabled on this
+system.", then we need execute command like:(notice ,use administrator priority to run power shell)
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+4. isntall expo-cli
+yarn add expo-cli --global
+after install, run yarn start will run expo locally
+
+or, run yarn android to run on emulator, but you may suffer from error like "No Android connected device found, and no emulators could be started automatically.
+Please connect a device or create an emulator (https://docs.expo.io/workflow/android-studio-emulator)"
+you need to have the Android emulator opened, then you can open the project on it.
+
+
+5.publish 
+https://instabug.com/blog/react-native-app-ios-android/
+
