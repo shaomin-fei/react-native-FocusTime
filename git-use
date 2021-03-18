@@ -15,7 +15,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 4. isntall expo-cli
 yarn add expo-cli --global
-after install, run yarn start will run expo locally
+after install, use yarn expo --version to check the version.run yarn start will run expo locally
 
 or, run yarn android to run on emulator, but you may suffer from error like "No Android connected device found, and no emulators could be started automatically.
 Please connect a device or create an emulator (https://docs.expo.io/workflow/android-studio-emulator)"
